@@ -17,13 +17,13 @@ public class MovePlayer : MonoBehaviour {
 	}
 
     void Update() {
-        		Touch touch = Input.GetTouch (Input.touchCount);
-        		if (touch.position.x < Screen.width / 2) {
-        			this.transform.Translate (Vector2.left * 2);
-        		}
-        		if (touch.position.x > Screen.width/2) {
-        			this.transform.Translate(Vector2.right * 2);
-        		}
+//        		Touch touch = Input.GetTouch (Input.touchCount);
+//        		if (touch.position.x < Screen.width / 2) {
+//        			this.transform.Translate (Vector2.left * 2);
+//        		}
+//        		if (touch.position.x > Screen.width/2) {
+//        			this.transform.Translate(Vector2.right * 2);
+//        		}
 
         switch (playerPosition) {
             case CENTER:
