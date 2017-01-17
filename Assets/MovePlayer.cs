@@ -25,32 +25,32 @@ public class MovePlayer : MonoBehaviour {
 //        			this.transform.Translate(Vector2.right * 2);
 //        		}
 
-//        switch (playerPosition) {
-//            case CENTER:
-//                if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-//                    this.transform.Translate(Vector2.left * OFFSET);
-//                    playerPosition = LEFT;
-//                }
-//                if (Input.GetKeyDown(KeyCode.RightArrow)) {
-//                    this.transform.Translate(Vector2.right * OFFSET);
-//                    playerPosition = RIGHT;
-//                }
-//                break;
-//            case LEFT:
-//                if (Input.GetKeyDown(KeyCode.RightArrow)) {
-//                    this.transform.Translate(Vector2.right * OFFSET);
-//                    playerPosition = CENTER;
-//                }
-//                break;
-//            case RIGHT:
-//                if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-//                    this.transform.Translate(Vector2.left * OFFSET);
-//                    playerPosition = CENTER;
-//                }
-//                break;
-//            default:
-//                playerPosition = CENTER;
-//                break;
-//        }
+        switch (playerPosition) {
+            case CENTER:
+                if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+                    this.transform.Translate(Vector2.left * OFFSET);
+                    playerPosition = LEFT;
+                }
+                if (Input.GetKeyDown(KeyCode.RightArrow)) {
+                    this.transform.Translate(Vector2.right * OFFSET);
+                    playerPosition = RIGHT;
+                }
+                break;
+            case LEFT:
+                if (Input.GetKeyDown(KeyCode.RightArrow)) {
+                    this.transform.Translate(Vector2.right * OFFSET);
+                    playerPosition = CENTER;
+                }
+                break;
+            case RIGHT:
+                if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+                    this.transform.Translate(Vector2.left * OFFSET);
+                    playerPosition = CENTER;
+                }
+                break;
+            default:
+                playerPosition = CENTER;
+                break;
+        }
     }
 }
