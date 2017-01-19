@@ -3,8 +3,9 @@ using System.Collections;
 
 public class DestroyScript : MonoBehaviour {
 
-    void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject) Destroy(other.gameObject);
+    void OnCollisionEnter2D(Collision2D other) {
+        Debug.Log("chuj");
+        Destroy(other.gameObject);
     }
 
 }
