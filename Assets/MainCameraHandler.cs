@@ -8,6 +8,10 @@ public class MainCameraHandler : MonoBehaviour {
 		Screen.orientation = ScreenOrientation.Portrait;
 	}
 
+    void Awake() {
+        Application.targetFrameRate = 60;
+    }
+
 	void Update () {
 	
 	}
