@@ -10,7 +10,7 @@ public class SpawnScrpit : MonoBehaviour {
 
 
     void Start() {
-        target = new Vector3(0, 8, -0.6f);
+        target = new Vector3(0, 7.819f, -0.6f);
     }
     void OnTriggerExit2D(Collider2D col) {
         Spawn();

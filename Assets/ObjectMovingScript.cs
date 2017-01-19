@@ -11,7 +11,7 @@ public class ObjectMovingScript : MonoBehaviour {
         target = new Vector3(gameObject.transform.position.x, -10, gameObject.transform.position.z);
     }
 
-	void Update () {
+	void FixedUpdate () {
         step = speed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target, step);
 	}
