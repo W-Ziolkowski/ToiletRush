@@ -105,10 +105,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Toilet Rush.CSharp.Plugins.csproj">
-      <Project>{79D736B1-A9C2-3792-60C0-505CFE9A84C0}</Project>
-      <Name>Toilet Rush.CSharp.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Toilet Rush.CSharp.csproj">
       <Project>{6E7AD206-FFB5-2E25-C1BE-40E22EF32735}</Project>
       <Name>Toilet Rush.CSharp</Name>
@@ -116,12 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
-    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

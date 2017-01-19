@@ -5,7 +5,9 @@ public class SpawnScrpit : MonoBehaviour {
 
     public GameObject obj;
 
+
     Vector3 target;
+
 
     void Start() {
         target = new Vector3(0, 8, -0.6f);
@@ -17,6 +19,4 @@ public class SpawnScrpit : MonoBehaviour {
     void Spawn() {
         Instantiate(obj, target, Quaternion.identity);
     }
-
-
 }
