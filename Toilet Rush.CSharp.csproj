@@ -80,6 +80,7 @@
     <Compile Include="Assets\MainCameraHandler.cs" />
     <Compile Include="Assets\MovePlayer.cs" />
     <Compile Include="Assets\ObjectMovingScript.cs" />
+    <Compile Include="Assets\ObstacleCollisionHandler.cs" />
     <Compile Include="Assets\ObstacleSpawner.cs" />
     <Compile Include="Assets\PlayerBoxColor.cs" />
     <Compile Include="Assets\SpawnScrpit.cs" />
