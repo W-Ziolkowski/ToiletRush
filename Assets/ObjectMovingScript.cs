@@ -12,7 +12,7 @@ public class ObjectMovingScript : MonoBehaviour {
     }
 	
 	void Update () {
-        float step = speed * Time.deltaTime;
+        step = speed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target, step);
 	}
 }
