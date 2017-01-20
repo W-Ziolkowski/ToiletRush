@@ -47,12 +47,14 @@
   <ItemGroup>
      <Compile Include="Assets\CollisionHandler.cs" />
      <Compile Include="Assets\DestroyScript.cs" />
+     <Compile Include="Assets\GameOverScript.cs" />
      <Compile Include="Assets\MainCameraHandler.cs" />
      <Compile Include="Assets\MovePlayer.cs" />
      <Compile Include="Assets\ObjectMovingScript.cs" />
      <Compile Include="Assets\ObstacleCollisionHandler.cs" />
      <Compile Include="Assets\ObstacleSpawner.cs" />
      <Compile Include="Assets\PlayerBoxColor.cs" />
+     <Compile Include="Assets\RetryButtonHandler.cs" />
      <Compile Include="Assets\ScoreCounterScript.cs" />
      <Compile Include="Assets\SpawnScrpit.cs" />
  <Reference Include="UnityEngine.UI">

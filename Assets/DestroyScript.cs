@@ -21,6 +21,10 @@ public class DestroyScript : MonoBehaviour {
 		ScoreCounter.text = "S  c  o  r  e  : " + score;
 	}
 
+	void OnDisable() {
+		PlayerPrefs.SetInt ("Score", score);
+	}
+
 	void FixedUpdate() {
 		DisplayScore ();
 	}
