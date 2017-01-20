@@ -1,13 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StartGameScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MovePlayer.cs">
     <Files>
-      <File FileName="Assets/DestroyScript.cs" Line="8" Column="16" />
-      <File FileName="Assets/MovePlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/ObstacleCollisionHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameOverScript.cs" Line="15" Column="3" />
-      <File FileName="Assets/RetryButtonHandler.cs" Line="7" Column="2" />
-      <File FileName="Assets/StartGameScript.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/MovePlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
